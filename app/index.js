@@ -1,11 +1,3 @@
-let power = false;
-let color = 'White';
-let myobj = {
-  power: true,
-  value: 10,
-  model: 'New',
-  color: 'Blue'
-};
+var a= 'hello1';
 
-({power, color} = myobj);
-console.log(power, color);
+console.log(`hello ${a}`);
