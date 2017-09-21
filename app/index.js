@@ -1,3 +1,7 @@
-var a= 'hello1';
+function butter(...aa) {
+  console.log(aa);
+  let a = [1, 2, 3, ...aa];
+  return a;
+}
 
-console.log(`hello ${a}`);
+console.log(butter(4, 5, 6));
