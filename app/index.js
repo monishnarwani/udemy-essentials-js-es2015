@@ -1,9 +1,11 @@
-console.log('hello world with automatic update');
+let power = false;
+let color = 'White';
+let myobj = {
+  power: true,
+  value: 10,
+  model: 'New',
+  color: 'Blue'
+};
 
-var a = 'Hello';
-console.log(a);
-
-{
-  let a = 'goodbye';
-  console.log('inside ' + a);
-}
+({power, color} = myobj);
+console.log(power, color);
